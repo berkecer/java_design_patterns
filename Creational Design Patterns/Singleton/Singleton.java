@@ -1,5 +1,7 @@
-/* BERK ECER - SINGLETON DESIGN PATTERN */
-
+/**
+ * @author Berk Ecer - SINGLETON DESIGN PATTERN
+ *
+ */
 public class Singleton {
 	private static Singleton instance;
 	
