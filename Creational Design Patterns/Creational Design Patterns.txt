@@ -22,3 +22,19 @@ This pattern take out the responsibility of instantiation of a class from client
 
 In Factory pattern, we create object without exposing the creation logic to the client and refer to newly created
 object using a common interface.
+
+
+
+ABSTRACT FACTORY DESIGN PATTERN
+-------------------------------
+
+In Factory pattern we have a single Factory class. 
+This factory class returns different subclasses based on the input provided and factory class uses if-else or switch statement
+to achieve this.
+
+In the Abstract Factory pattern, we get rid of if-else block and have a factory class for each sub-class. 
+Then an Abstract Factory class that will return the sub-class based on the input factory class.
+
+Abstract factory provides us a new layer between client and our factories.
+
+We can easily add new object models and their factories. 
